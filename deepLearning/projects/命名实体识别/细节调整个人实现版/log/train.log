@@ -1,0 +1,24 @@
+2018-08-09 11:31:47,413 - log\train.log - INFO - model_type     :	idcnn
+2018-08-09 11:31:47,431 - log\train.log - INFO - num_chars      :	2677
+2018-08-09 11:31:47,432 - log\train.log - INFO - char_dim       :	100
+2018-08-09 11:31:47,432 - log\train.log - INFO - num_tags       :	45
+2018-08-09 11:31:47,432 - log\train.log - INFO - seg_dim        :	20
+2018-08-09 11:31:47,432 - log\train.log - INFO - lstm_dim       :	100
+2018-08-09 11:31:47,432 - log\train.log - INFO - batch_size     :	60
+2018-08-09 11:31:47,433 - log\train.log - INFO - emb_file       :	D:\Pycharm\WorkSpace\deepLearning\命名实体识别\data\vec.txt
+2018-08-09 11:31:47,435 - log\train.log - INFO - clip           :	5.0
+2018-08-09 11:31:47,435 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-09 11:31:47,436 - log\train.log - INFO - optimizer      :	adam
+2018-08-09 11:31:47,437 - log\train.log - INFO - lr             :	0.001
+2018-08-09 11:31:47,437 - log\train.log - INFO - tag_schema     :	bioes
+2018-08-09 11:31:47,439 - log\train.log - INFO - pre_emb        :	True
+2018-08-09 11:31:47,439 - log\train.log - INFO - zeros          :	True
+2018-08-09 11:31:47,439 - log\train.log - INFO - lower          :	False
+2018-08-09 11:31:50,743 - log\train.log - INFO - Created model with fresh parameters.
+2018-08-09 11:31:51,459 - log\train.log - INFO - Load pre-trained embedding.
+2018-08-09 11:31:51,460 - log\train.log - INFO - start training
+2018-08-09 11:33:10,642 - log\train.log - INFO - iteration:1 step:100/1663, NER loss:76.040558
+2018-08-09 11:34:24,110 - log\train.log - INFO - iteration:1 step:200/1663, NER loss:44.834183
+2018-08-09 11:35:37,359 - log\train.log - INFO - iteration:1 step:300/1663, NER loss:31.053686
+2018-08-09 11:37:17,546 - log\train.log - INFO - iteration:1 step:400/1663, NER loss:26.837784
+2018-08-09 11:38:36,446 - log\train.log - INFO - iteration:1 step:500/1663, NER loss:17.656971
