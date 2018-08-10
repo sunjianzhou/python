@@ -1,0 +1,318 @@
+2018-07-29 19:50:20,788 - log\train.log - INFO - model_type     :	idcnn
+2018-07-29 19:50:20,803 - log\train.log - INFO - num_chars      :	2677
+2018-07-29 19:50:20,803 - log\train.log - INFO - char_dim       :	100
+2018-07-29 19:50:20,804 - log\train.log - INFO - num_tags       :	51
+2018-07-29 19:50:20,804 - log\train.log - INFO - seg_dim        :	20
+2018-07-29 19:50:20,805 - log\train.log - INFO - lstm_dim       :	100
+2018-07-29 19:50:20,805 - log\train.log - INFO - batch_size     :	60.0
+2018-07-29 19:50:20,806 - log\train.log - INFO - emb_file       :	d:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-07-29 19:50:20,808 - log\train.log - INFO - clip           :	5.0
+2018-07-29 19:50:20,809 - log\train.log - INFO - dropout_keep   :	0.5
+2018-07-29 19:50:20,810 - log\train.log - INFO - optimizer      :	adam
+2018-07-29 19:50:20,810 - log\train.log - INFO - lr             :	0.001
+2018-07-29 19:50:20,811 - log\train.log - INFO - tag_schema     :	iobes
+2018-07-29 19:50:20,811 - log\train.log - INFO - pre_emb        :	True
+2018-07-29 19:50:20,812 - log\train.log - INFO - zeros          :	True
+2018-07-29 19:50:20,819 - log\train.log - INFO - lower          :	False
+2018-07-29 19:50:35,043 - log\train.log - INFO - Created model with fresh parameters.
+2018-07-29 19:50:36,881 - log\train.log - INFO - Load pre-trained embedding.
+2018-07-29 19:50:36,881 - log\train.log - INFO - start training
+2018-07-29 20:01:36,350 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-30 09:50:30,316 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-30 14:41:17,084 - log\train.log - INFO - model_type     :	idcnn
+2018-07-30 14:41:17,090 - log\train.log - INFO - num_chars      :	3538
+2018-07-30 14:41:17,091 - log\train.log - INFO - char_dim       :	100
+2018-07-30 14:41:17,092 - log\train.log - INFO - num_tags       :	51
+2018-07-30 14:41:17,092 - log\train.log - INFO - seg_dim        :	20
+2018-07-30 14:41:17,093 - log\train.log - INFO - lstm_dim       :	100
+2018-07-30 14:41:17,093 - log\train.log - INFO - batch_size     :	20
+2018-07-30 14:41:17,094 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-07-30 14:41:17,094 - log\train.log - INFO - clip           :	5
+2018-07-30 14:41:17,095 - log\train.log - INFO - dropout_keep   :	0.5
+2018-07-30 14:41:17,096 - log\train.log - INFO - optimizer      :	adam
+2018-07-30 14:41:17,096 - log\train.log - INFO - lr             :	0.001
+2018-07-30 14:41:17,097 - log\train.log - INFO - tag_schema     :	iobes
+2018-07-30 14:41:17,097 - log\train.log - INFO - pre_emb        :	True
+2018-07-30 14:41:17,098 - log\train.log - INFO - zeros          :	True
+2018-07-30 14:41:17,098 - log\train.log - INFO - lower          :	False
+2018-07-30 14:41:27,006 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-30 14:41:27,200 - log\train.log - INFO - start training
+2018-07-30 14:41:30,035 - log\train.log - INFO - iteration:2859 step:54/1687, NER loss: 0.750261
+2018-07-30 14:43:16,615 - log\train.log - INFO - iteration:2859 step:154/1687, NER loss: 1.875957
+2018-07-30 14:45:16,391 - log\train.log - INFO - iteration:2859 step:254/1687, NER loss: 1.873553
+2018-07-30 14:47:05,649 - log\train.log - INFO - iteration:2859 step:354/1687, NER loss: 1.626116
+2018-07-30 14:48:57,829 - log\train.log - INFO - iteration:2859 step:454/1687, NER loss: 1.561589
+2018-07-30 14:50:48,816 - log\train.log - INFO - iteration:2859 step:554/1687, NER loss: 1.705348
+2018-07-30 14:52:26,138 - log\train.log - INFO - iteration:2859 step:654/1687, NER loss: 1.672665
+2018-07-30 14:53:51,533 - log\train.log - INFO - iteration:2859 step:754/1687, NER loss: 1.336731
+2018-07-30 14:55:24,095 - log\train.log - INFO - iteration:2859 step:854/1687, NER loss: 1.445685
+2018-07-30 14:57:00,697 - log\train.log - INFO - iteration:2859 step:954/1687, NER loss: 1.612225
+2018-07-30 14:58:39,056 - log\train.log - INFO - iteration:2859 step:1054/1687, NER loss: 1.434613
+2018-07-30 15:00:07,506 - log\train.log - INFO - iteration:2859 step:1154/1687, NER loss: 1.242763
+2018-07-30 15:01:49,211 - log\train.log - INFO - iteration:2859 step:1254/1687, NER loss: 1.675396
+2018-07-30 15:03:27,615 - log\train.log - INFO - iteration:2859 step:1354/1687, NER loss: 1.445016
+2018-07-30 15:05:51,235 - log\train.log - INFO - iteration:2859 step:1454/1687, NER loss: 1.892940
+2018-07-30 15:07:51,134 - log\train.log - INFO - iteration:2859 step:1554/1687, NER loss: 1.616966
+2018-07-30 15:09:31,844 - log\train.log - INFO - iteration:2859 step:1654/1687, NER loss: 1.186265
+2018-07-30 15:10:59,861 - log\train.log - INFO - model saved
+2018-07-30 15:11:15,479 - log\train.log - INFO - iteration:2860 step:67/1687, NER loss: 1.274890
+2018-07-30 15:13:04,457 - log\train.log - INFO - iteration:2860 step:167/1687, NER loss: 1.381510
+2018-07-30 15:14:52,454 - log\train.log - INFO - iteration:2860 step:267/1687, NER loss: 1.310556
+2018-07-30 15:17:43,742 - log\train.log - INFO - iteration:2860 step:367/1687, NER loss: 1.590209
+2018-07-30 15:19:37,467 - log\train.log - INFO - iteration:2860 step:467/1687, NER loss: 1.022789
+2018-07-30 15:21:57,738 - log\train.log - INFO - iteration:2860 step:567/1687, NER loss: 1.788691
+2018-07-30 15:24:05,315 - log\train.log - INFO - iteration:2860 step:667/1687, NER loss: 1.414968
+2018-07-30 15:26:44,224 - log\train.log - INFO - iteration:2860 step:767/1687, NER loss: 1.704686
+2018-07-30 15:29:08,013 - log\train.log - INFO - iteration:2860 step:867/1687, NER loss: 1.427989
+2018-07-30 15:30:23,940 - log\train.log - INFO - iteration:2860 step:967/1687, NER loss: 1.171925
+2018-07-30 15:31:37,111 - log\train.log - INFO - iteration:2860 step:1067/1687, NER loss: 0.970276
+2018-07-30 15:33:10,940 - log\train.log - INFO - iteration:2860 step:1167/1687, NER loss: 1.583407
+2018-07-30 15:35:04,740 - log\train.log - INFO - iteration:2860 step:1267/1687, NER loss: 1.965202
+2018-07-30 15:36:20,701 - log\train.log - INFO - iteration:2860 step:1367/1687, NER loss: 0.961060
+2018-07-30 15:37:47,382 - log\train.log - INFO - iteration:2860 step:1467/1687, NER loss: 1.190278
+2018-07-30 15:39:39,072 - log\train.log - INFO - iteration:2860 step:1567/1687, NER loss: 1.798965
+2018-07-30 15:41:20,154 - log\train.log - INFO - iteration:2860 step:1667/1687, NER loss: 1.558204
+2018-07-30 15:42:28,313 - log\train.log - INFO - iteration:2861 step:80/1687, NER loss: 1.012811
+2018-07-30 15:43:41,035 - log\train.log - INFO - iteration:2861 step:180/1687, NER loss: 1.144251
+2018-07-30 15:45:11,465 - log\train.log - INFO - iteration:2861 step:280/1687, NER loss: 1.466231
+2018-07-30 15:46:36,785 - log\train.log - INFO - iteration:2861 step:380/1687, NER loss: 1.491863
+2018-07-30 15:47:43,554 - log\train.log - INFO - iteration:2861 step:480/1687, NER loss: 1.230311
+2018-07-30 15:48:58,687 - log\train.log - INFO - iteration:2861 step:580/1687, NER loss: 1.211683
+2018-07-30 15:50:26,498 - log\train.log - INFO - iteration:2861 step:680/1687, NER loss: 1.417713
+2018-07-30 15:51:35,517 - log\train.log - INFO - iteration:2861 step:780/1687, NER loss: 1.070797
+2018-07-30 15:53:03,491 - log\train.log - INFO - iteration:2861 step:880/1687, NER loss: 1.449141
+2018-07-30 15:54:27,228 - log\train.log - INFO - iteration:2861 step:980/1687, NER loss: 1.442780
+2018-07-30 15:55:33,594 - log\train.log - INFO - iteration:2861 step:1080/1687, NER loss: 1.058440
+2018-07-30 15:57:11,089 - log\train.log - INFO - iteration:2861 step:1180/1687, NER loss: 1.691243
+2018-07-30 15:58:33,636 - log\train.log - INFO - iteration:2861 step:1280/1687, NER loss: 1.417164
+2018-07-30 16:00:02,249 - log\train.log - INFO - iteration:2861 step:1380/1687, NER loss: 1.500995
+2018-07-30 16:01:30,042 - log\train.log - INFO - iteration:2861 step:1480/1687, NER loss: 1.662662
+2018-07-30 16:03:03,112 - log\train.log - INFO - iteration:2861 step:1580/1687, NER loss: 1.625495
+2018-07-30 17:06:01,603 - log\train.log - INFO - model_type     :	idcnn
+2018-07-30 17:06:01,617 - log\train.log - INFO - num_chars      :	3538
+2018-07-30 17:06:01,618 - log\train.log - INFO - char_dim       :	100
+2018-07-30 17:06:01,618 - log\train.log - INFO - num_tags       :	51
+2018-07-30 17:06:01,618 - log\train.log - INFO - seg_dim        :	20
+2018-07-30 17:06:01,619 - log\train.log - INFO - lstm_dim       :	100
+2018-07-30 17:06:01,619 - log\train.log - INFO - batch_size     :	20
+2018-07-30 17:06:01,620 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-07-30 17:06:01,620 - log\train.log - INFO - clip           :	5
+2018-07-30 17:06:01,621 - log\train.log - INFO - dropout_keep   :	0.5
+2018-07-30 17:06:01,621 - log\train.log - INFO - optimizer      :	adam
+2018-07-30 17:06:01,622 - log\train.log - INFO - lr             :	0.001
+2018-07-30 17:06:01,623 - log\train.log - INFO - tag_schema     :	iobes
+2018-07-30 17:06:01,624 - log\train.log - INFO - pre_emb        :	True
+2018-07-30 17:06:01,624 - log\train.log - INFO - zeros          :	True
+2018-07-30 17:06:01,625 - log\train.log - INFO - lower          :	False
+2018-07-30 17:06:21,801 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-30 17:06:22,146 - log\train.log - INFO - start training
+2018-07-30 17:06:58,360 - log\train.log - INFO - iteration:2860 step:67/1687, NER loss: 2.202279
+2018-07-30 17:09:26,818 - log\train.log - INFO - iteration:2860 step:167/1687, NER loss: 1.286683
+2018-08-01 10:25:49,116 - log\train.log - INFO - model_type     :	idcnn
+2018-08-01 10:25:49,138 - log\train.log - INFO - num_chars      :	3538
+2018-08-01 10:25:49,139 - log\train.log - INFO - char_dim       :	100
+2018-08-01 10:25:49,139 - log\train.log - INFO - num_tags       :	51
+2018-08-01 10:25:49,140 - log\train.log - INFO - seg_dim        :	20
+2018-08-01 10:25:49,141 - log\train.log - INFO - lstm_dim       :	100
+2018-08-01 10:25:49,142 - log\train.log - INFO - batch_size     :	20
+2018-08-01 10:25:49,143 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-01 10:25:49,143 - log\train.log - INFO - clip           :	5
+2018-08-01 10:25:49,146 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-01 10:25:49,146 - log\train.log - INFO - optimizer      :	adam
+2018-08-01 10:25:49,147 - log\train.log - INFO - lr             :	0.001
+2018-08-01 10:25:49,147 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-01 10:25:49,148 - log\train.log - INFO - pre_emb        :	True
+2018-08-01 10:25:49,148 - log\train.log - INFO - zeros          :	True
+2018-08-01 10:25:49,149 - log\train.log - INFO - lower          :	False
+2018-08-01 11:39:34,833 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-01 11:39:35,241 - log\train.log - INFO - start training
+2018-08-01 11:49:46,621 - log\train.log - INFO - model_type     :	idcnn
+2018-08-01 11:49:46,636 - log\train.log - INFO - num_chars      :	3538
+2018-08-01 11:49:46,636 - log\train.log - INFO - char_dim       :	100
+2018-08-01 11:49:46,637 - log\train.log - INFO - num_tags       :	51
+2018-08-01 11:49:46,638 - log\train.log - INFO - seg_dim        :	20
+2018-08-01 11:49:46,639 - log\train.log - INFO - lstm_dim       :	100
+2018-08-01 11:49:46,639 - log\train.log - INFO - batch_size     :	20
+2018-08-01 11:49:46,644 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-01 11:49:46,645 - log\train.log - INFO - clip           :	5
+2018-08-01 11:49:46,648 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-01 11:49:46,650 - log\train.log - INFO - optimizer      :	adam
+2018-08-01 11:49:46,650 - log\train.log - INFO - lr             :	0.001
+2018-08-01 11:49:46,651 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-01 11:49:46,654 - log\train.log - INFO - pre_emb        :	True
+2018-08-01 11:49:46,654 - log\train.log - INFO - zeros          :	True
+2018-08-01 11:49:46,654 - log\train.log - INFO - lower          :	False
+2018-08-01 13:24:08,233 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-01 13:24:08,466 - log\train.log - INFO - start training
+2018-08-01 13:24:45,075 - log\train.log - INFO - iteration:2860 step:67/1687, NER loss: 3.238868
+2018-08-01 13:26:28,540 - log\train.log - INFO - iteration:2860 step:167/1687, NER loss: 1.084590
+2018-08-01 13:28:15,655 - log\train.log - INFO - iteration:2860 step:267/1687, NER loss: 1.112139
+2018-08-01 13:30:11,580 - log\train.log - INFO - iteration:2860 step:367/1687, NER loss: 1.404465
+2018-08-01 13:32:11,061 - log\train.log - INFO - iteration:2860 step:467/1687, NER loss: 1.539923
+2018-08-01 13:34:20,385 - log\train.log - INFO - iteration:2860 step:567/1687, NER loss: 1.582157
+2018-08-01 13:36:30,675 - log\train.log - INFO - iteration:2860 step:667/1687, NER loss: 1.648256
+2018-08-01 13:38:34,623 - log\train.log - INFO - iteration:2860 step:767/1687, NER loss: 1.494965
+2018-08-01 13:40:09,436 - log\train.log - INFO - iteration:2860 step:867/1687, NER loss: 0.904959
+2018-08-01 13:42:25,489 - log\train.log - INFO - iteration:2860 step:967/1687, NER loss: 1.674902
+2018-08-01 13:44:34,929 - log\train.log - INFO - iteration:2860 step:1067/1687, NER loss: 1.440363
+2018-08-01 13:55:50,324 - log\train.log - INFO - model_type     :	idcnn
+2018-08-01 13:55:50,331 - log\train.log - INFO - num_chars      :	3538
+2018-08-01 13:55:50,332 - log\train.log - INFO - char_dim       :	100
+2018-08-01 13:55:50,333 - log\train.log - INFO - num_tags       :	51
+2018-08-01 13:55:50,333 - log\train.log - INFO - seg_dim        :	20
+2018-08-01 13:55:50,333 - log\train.log - INFO - lstm_dim       :	100
+2018-08-01 13:55:50,339 - log\train.log - INFO - batch_size     :	20
+2018-08-01 13:55:50,341 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-01 13:55:50,342 - log\train.log - INFO - clip           :	5
+2018-08-01 13:55:50,344 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-01 13:55:50,345 - log\train.log - INFO - optimizer      :	adam
+2018-08-01 13:55:50,345 - log\train.log - INFO - lr             :	0.001
+2018-08-01 13:55:50,346 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-01 13:55:50,346 - log\train.log - INFO - pre_emb        :	True
+2018-08-01 13:55:50,347 - log\train.log - INFO - zeros          :	True
+2018-08-01 13:55:50,348 - log\train.log - INFO - lower          :	False
+2018-08-01 23:40:58,890 - log\train.log - INFO - model_type     :	idcnn
+2018-08-01 23:40:58,900 - log\train.log - INFO - num_chars      :	3538
+2018-08-01 23:40:58,900 - log\train.log - INFO - char_dim       :	100
+2018-08-01 23:40:58,901 - log\train.log - INFO - num_tags       :	51
+2018-08-01 23:40:58,901 - log\train.log - INFO - seg_dim        :	20
+2018-08-01 23:40:58,902 - log\train.log - INFO - lstm_dim       :	100
+2018-08-01 23:40:58,902 - log\train.log - INFO - batch_size     :	20
+2018-08-01 23:40:58,903 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-01 23:40:58,903 - log\train.log - INFO - clip           :	5
+2018-08-01 23:40:58,904 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-01 23:40:58,905 - log\train.log - INFO - optimizer      :	adam
+2018-08-01 23:40:58,905 - log\train.log - INFO - lr             :	0.001
+2018-08-01 23:40:58,906 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-01 23:40:58,907 - log\train.log - INFO - pre_emb        :	True
+2018-08-01 23:40:58,907 - log\train.log - INFO - zeros          :	True
+2018-08-01 23:40:58,908 - log\train.log - INFO - lower          :	False
+2018-08-06 22:18:38,385 - log\train.log - INFO - model_type     :	idcnn
+2018-08-06 22:18:38,392 - log\train.log - INFO - num_chars      :	3538
+2018-08-06 22:18:38,393 - log\train.log - INFO - char_dim       :	100
+2018-08-06 22:18:38,393 - log\train.log - INFO - num_tags       :	51
+2018-08-06 22:18:38,394 - log\train.log - INFO - seg_dim        :	20
+2018-08-06 22:18:38,394 - log\train.log - INFO - lstm_dim       :	100
+2018-08-06 22:18:38,394 - log\train.log - INFO - batch_size     :	20
+2018-08-06 22:18:38,395 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-06 22:18:38,395 - log\train.log - INFO - clip           :	5
+2018-08-06 22:18:38,396 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-06 22:18:38,396 - log\train.log - INFO - optimizer      :	adam
+2018-08-06 22:18:38,397 - log\train.log - INFO - lr             :	0.001
+2018-08-06 22:18:38,398 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-06 22:18:38,398 - log\train.log - INFO - pre_emb        :	True
+2018-08-06 22:18:38,398 - log\train.log - INFO - zeros          :	True
+2018-08-06 22:18:38,399 - log\train.log - INFO - lower          :	False
+2018-08-06 22:18:47,574 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-06 22:18:47,774 - log\train.log - INFO - start training
+2018-08-06 22:34:09,738 - log\train.log - INFO - model_type     :	idcnn
+2018-08-06 22:34:09,743 - log\train.log - INFO - num_chars      :	3538
+2018-08-06 22:34:09,744 - log\train.log - INFO - char_dim       :	100
+2018-08-06 22:34:09,744 - log\train.log - INFO - num_tags       :	51
+2018-08-06 22:34:09,745 - log\train.log - INFO - seg_dim        :	20
+2018-08-06 22:34:09,745 - log\train.log - INFO - lstm_dim       :	100
+2018-08-06 22:34:09,745 - log\train.log - INFO - batch_size     :	20
+2018-08-06 22:34:09,746 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-06 22:34:09,746 - log\train.log - INFO - clip           :	5
+2018-08-06 22:34:09,747 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-06 22:34:09,747 - log\train.log - INFO - optimizer      :	adam
+2018-08-06 22:34:09,747 - log\train.log - INFO - lr             :	0.001
+2018-08-06 22:34:09,748 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-06 22:34:09,748 - log\train.log - INFO - pre_emb        :	True
+2018-08-06 22:34:09,749 - log\train.log - INFO - zeros          :	True
+2018-08-06 22:34:09,749 - log\train.log - INFO - lower          :	False
+2018-08-06 22:34:18,285 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-06 22:34:18,445 - log\train.log - INFO - start training
+2018-08-06 22:34:34,952 - log\train.log - INFO - iteration:2860 step:67/1687, NER loss: 1.579858
+2018-08-06 22:36:13,856 - log\train.log - INFO - iteration:2860 step:167/1687, NER loss: 1.577286
+2018-08-06 22:37:35,428 - log\train.log - INFO - iteration:2860 step:267/1687, NER loss: 1.142865
+2018-08-06 22:38:52,634 - log\train.log - INFO - iteration:2860 step:367/1687, NER loss: 1.085668
+2018-08-06 22:40:19,447 - log\train.log - INFO - iteration:2860 step:467/1687, NER loss: 1.315547
+2018-08-06 22:42:11,302 - log\train.log - INFO - iteration:2860 step:567/1687, NER loss: 1.690574
+2018-08-06 22:43:44,255 - log\train.log - INFO - iteration:2860 step:667/1687, NER loss: 1.740279
+2018-08-06 22:45:04,016 - log\train.log - INFO - iteration:2860 step:767/1687, NER loss: 1.437118
+2018-08-06 22:46:21,335 - log\train.log - INFO - iteration:2860 step:867/1687, NER loss: 1.298661
+2018-08-06 22:47:33,617 - log\train.log - INFO - iteration:2860 step:967/1687, NER loss: 1.051466
+2018-08-06 22:49:07,168 - log\train.log - INFO - iteration:2860 step:1067/1687, NER loss: 1.649981
+2018-08-06 22:50:22,612 - log\train.log - INFO - iteration:2860 step:1167/1687, NER loss: 1.328078
+2018-08-06 22:51:39,093 - log\train.log - INFO - iteration:2860 step:1267/1687, NER loss: 1.328191
+2018-08-06 22:52:50,602 - log\train.log - INFO - iteration:2860 step:1367/1687, NER loss: 1.236950
+2018-08-06 22:54:10,270 - log\train.log - INFO - iteration:2860 step:1467/1687, NER loss: 1.379039
+2018-08-06 22:55:34,834 - log\train.log - INFO - iteration:2860 step:1567/1687, NER loss: 1.483902
+2018-08-06 22:56:55,494 - log\train.log - INFO - iteration:2860 step:1667/1687, NER loss: 1.329767
+2018-08-06 22:57:44,248 - log\train.log - INFO - model saved
+2018-08-06 22:58:05,507 - log\train.log - INFO - iteration:2861 step:80/1687, NER loss: 1.195664
+2018-08-06 22:59:23,799 - log\train.log - INFO - iteration:2861 step:180/1687, NER loss: 1.393134
+2018-08-06 23:00:40,845 - log\train.log - INFO - iteration:2861 step:280/1687, NER loss: 1.236059
+2018-08-08 10:55:40,558 - log\train.log - INFO - model_type     :	idcnn
+2018-08-08 10:55:40,564 - log\train.log - INFO - num_chars      :	3538
+2018-08-08 10:55:40,564 - log\train.log - INFO - char_dim       :	100
+2018-08-08 10:55:40,565 - log\train.log - INFO - num_tags       :	51
+2018-08-08 10:55:40,565 - log\train.log - INFO - seg_dim        :	20
+2018-08-08 10:55:40,566 - log\train.log - INFO - lstm_dim       :	100
+2018-08-08 10:55:40,566 - log\train.log - INFO - batch_size     :	20
+2018-08-08 10:55:40,567 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-08 10:55:40,567 - log\train.log - INFO - clip           :	5
+2018-08-08 10:55:40,568 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-08 10:55:40,568 - log\train.log - INFO - optimizer      :	adam
+2018-08-08 10:55:40,568 - log\train.log - INFO - lr             :	0.001
+2018-08-08 10:55:40,569 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-08 10:55:40,569 - log\train.log - INFO - pre_emb        :	True
+2018-08-08 10:55:40,570 - log\train.log - INFO - zeros          :	True
+2018-08-08 10:55:40,571 - log\train.log - INFO - lower          :	False
+2018-08-08 10:56:03,866 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-08 10:56:04,034 - log\train.log - INFO - start training
+2018-08-08 10:56:06,230 - log\train.log - INFO - iteration:2859 step:54/1687, NER loss: 0.327638
+2018-08-08 10:57:43,713 - log\train.log - INFO - iteration:2859 step:154/1687, NER loss: 2.042595
+2018-08-08 11:16:45,165 - log\train.log - INFO - model_type     :	idcnn
+2018-08-08 11:16:45,169 - log\train.log - INFO - num_chars      :	3538
+2018-08-08 11:16:45,170 - log\train.log - INFO - char_dim       :	100
+2018-08-08 11:16:45,170 - log\train.log - INFO - num_tags       :	51
+2018-08-08 11:16:45,170 - log\train.log - INFO - seg_dim        :	20
+2018-08-08 11:16:45,171 - log\train.log - INFO - lstm_dim       :	100
+2018-08-08 11:16:45,171 - log\train.log - INFO - batch_size     :	20
+2018-08-08 11:16:45,171 - log\train.log - INFO - emb_file       :	D:\wing\WingWorkSpace\NERuselocal\data\vec.txt
+2018-08-08 11:16:45,171 - log\train.log - INFO - clip           :	5
+2018-08-08 11:16:45,172 - log\train.log - INFO - dropout_keep   :	0.5
+2018-08-08 11:16:45,172 - log\train.log - INFO - optimizer      :	adam
+2018-08-08 11:16:45,173 - log\train.log - INFO - lr             :	0.001
+2018-08-08 11:16:45,173 - log\train.log - INFO - tag_schema     :	iobes
+2018-08-08 11:16:45,174 - log\train.log - INFO - pre_emb        :	True
+2018-08-08 11:16:45,174 - log\train.log - INFO - zeros          :	True
+2018-08-08 11:16:45,174 - log\train.log - INFO - lower          :	False
+2018-08-08 11:18:27,196 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-08-08 11:18:27,403 - log\train.log - INFO - start training
+2018-08-08 11:18:34,070 - log\train.log - INFO - iteration:2859 step:54/1687, NER loss:10.140053
+2018-08-08 11:20:26,591 - log\train.log - INFO - iteration:2859 step:154/1687, NER loss: 1.922437
+2018-08-08 11:22:06,351 - log\train.log - INFO - iteration:2859 step:254/1687, NER loss: 1.603586
+2018-08-08 11:23:53,619 - log\train.log - INFO - iteration:2859 step:354/1687, NER loss: 1.625939
+2018-08-08 11:25:40,812 - log\train.log - INFO - iteration:2859 step:454/1687, NER loss: 1.820795
+2018-08-08 11:27:20,037 - log\train.log - INFO - iteration:2859 step:554/1687, NER loss: 1.457516
+2018-08-08 11:29:33,493 - log\train.log - INFO - iteration:2859 step:654/1687, NER loss: 1.852846
+2018-08-08 11:31:14,565 - log\train.log - INFO - iteration:2859 step:754/1687, NER loss: 1.431762
+2018-08-08 11:33:36,975 - log\train.log - INFO - iteration:2859 step:854/1687, NER loss: 1.469890
+2018-08-08 11:35:21,873 - log\train.log - INFO - iteration:2859 step:954/1687, NER loss: 1.413124
+2018-08-08 11:37:08,800 - log\train.log - INFO - iteration:2859 step:1054/1687, NER loss: 1.628556
+2018-08-08 11:38:46,773 - log\train.log - INFO - iteration:2859 step:1154/1687, NER loss: 1.383431
+2018-08-08 11:39:58,006 - log\train.log - INFO - iteration:2859 step:1254/1687, NER loss: 1.031231
+2018-08-08 11:41:38,551 - log\train.log - INFO - iteration:2859 step:1354/1687, NER loss: 1.469636
+2018-08-08 11:43:05,903 - log\train.log - INFO - iteration:2859 step:1454/1687, NER loss: 1.156249
+2018-08-08 11:44:42,723 - log\train.log - INFO - iteration:2859 step:1554/1687, NER loss: 1.358696
+2018-08-08 11:46:22,699 - log\train.log - INFO - iteration:2859 step:1654/1687, NER loss: 1.401353
+2018-08-08 11:48:10,016 - log\train.log - INFO - model saved
+2018-08-08 11:48:29,616 - log\train.log - INFO - iteration:2860 step:67/1687, NER loss: 1.741802
+2018-08-08 11:50:18,604 - log\train.log - INFO - iteration:2860 step:167/1687, NER loss: 1.447228
+2018-08-08 11:51:57,181 - log\train.log - INFO - iteration:2860 step:267/1687, NER loss: 1.164652
+2018-08-08 11:53:30,900 - log\train.log - INFO - iteration:2860 step:367/1687, NER loss: 1.315249
+2018-08-08 11:55:03,482 - log\train.log - INFO - iteration:2860 step:467/1687, NER loss: 1.321245
+2018-08-08 11:56:25,288 - log\train.log - INFO - iteration:2860 step:567/1687, NER loss: 1.100582
+2018-08-08 11:58:13,342 - log\train.log - INFO - iteration:2860 step:667/1687, NER loss: 1.395580
+2018-08-08 11:59:53,682 - log\train.log - INFO - iteration:2860 step:767/1687, NER loss: 1.457817
+2018-08-08 12:01:39,930 - log\train.log - INFO - iteration:2860 step:867/1687, NER loss: 1.544034
+2018-08-08 12:03:17,882 - log\train.log - INFO - iteration:2860 step:967/1687, NER loss: 1.302649
+2018-08-08 12:04:57,166 - log\train.log - INFO - iteration:2860 step:1067/1687, NER loss: 1.270463
+2018-08-08 12:06:46,861 - log\train.log - INFO - iteration:2860 step:1167/1687, NER loss: 1.436197
+2018-08-08 12:08:11,847 - log\train.log - INFO - iteration:2860 step:1267/1687, NER loss: 1.097841
+2018-08-08 12:09:53,110 - log\train.log - INFO - iteration:2860 step:1367/1687, NER loss: 1.457456
+2018-08-08 12:11:31,755 - log\train.log - INFO - iteration:2860 step:1467/1687, NER loss: 1.381183
+2018-08-08 12:13:28,221 - log\train.log - INFO - iteration:2860 step:1567/1687, NER loss: 1.821169
